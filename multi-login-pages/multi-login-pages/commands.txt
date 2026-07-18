@@ -1,0 +1,16 @@
+1. To use LOCALTUNNEL :  install localtunnel by command "npm install -g localtunnel".
+   After this run your "node servr.js" . 
+   Open new terminal and run here "lt --port 3000 --https"
+   This will give you a link which you can shair with any targate.
+
+2. There are some more think which you can use in place of   "lt --port 3000 --https"  .
+
+Fore them you need to install other files with these commands. 
+
+Use any of them as you want.
+NOTE:  {{May some are not work in future it does not meen that code is not workink it meen commands are not working.
+          This website still work on localhost. You just need a sutable command so that it can run your localhost website to live.}}
+          So my little hacker do it.
+
+
+Methuot 2: run "node server.js"  then open new terminal without closing first. Then run "ssh -p 443 -R0:localhost:3000 qr@a.pinggy.io".
